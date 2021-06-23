@@ -3,7 +3,7 @@ BASE_URL = '/'
 
 class ProcessMessages{
 
-    async likeUnlikedMessage(form){
+    async likedUnlikedMessage(form){
 
         const $json = this.getData(form)
 
