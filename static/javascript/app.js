@@ -9,7 +9,7 @@ $liked_unliked.submit(async (e) =>{
 
     const $form = e.target
     
-    const $result = await $ProcessMessages.likeUnlikedMessage($form)
+    const $result = await $ProcessMessages.likedUnlikedMessage($form)
     const $btn = $($form).find("button")
 
     if($result['data'].resp){
