@@ -30,9 +30,9 @@ $send_new_message.submit(async (e) =>{
     const $result = await $ProcessMessages.sendNewMessage($form)
 
     if($result['data'].resp){
-        $('#message_body').val("message has been send")
+        $('#message_body').val("message has been sent")
     }else{
-        $('#message_body').val("message has not been send")
+        $('#message_body').val("message has not been sent")
     }
    
 
