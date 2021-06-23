@@ -13,6 +13,7 @@
 - Flask
 - Python
 - JavaScript
+- Ajax
 - RestFul
 - Bootstrap
 - CSS3
